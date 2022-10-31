@@ -1,0 +1,290 @@
+/* inter-regular - latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/inter-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/inter-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* inter-500 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/inter-v12-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/inter-v12-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* inter-700 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/inter-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/inter-v12-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  html{
+    box-sizing: border-box;
+  }
+  *, *::before, *::after{
+        box-sizing: inherit;
+  }
+body{
+    background: #121212;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+}
+/* Header start */
+.backGround{
+    max-width: 960px;
+    margin: 0 auto;
+    height: 100vh;
+    position: relative;
+}
+/* Тут Zero line, Sing in, Sing Up */
+.header{
+    width: 960px;
+    position: absolute;
+}
+.style_ZL{
+    position: relative;
+    width: 147px;
+    height: 44px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+.style_SI{
+    padding-top: 15px;
+    width: 51px;
+    height: 19px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    
+}
+.style_SU{
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    color: #FFFFFF;
+    background: #04182F;
+    width: 110px;
+    height: 48px; 
+    
+}
+.header_block{
+    width: 110px;
+    height: 48px;
+    color: #04182F;
+}
+
+.wrapper{
+    max-width:100%;
+    margin-left: 6.5%;
+    margin-right: 0;
+    margin-top: 36px;
+}
+
+.header_wrapper{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.header_list{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+
+.header_item{
+    margin-left: 57px;
+}
+.header_item:last-child{
+    margin-block-end: 0;
+}
+.rectangle{
+    position: absolute;
+    width: 1300px;
+    height: 600px;
+    margin-left: -200px;
+    margin-top: 70px;
+    background: #D9D9D9;
+    /* transform: rotate(-17deg); */
+    transform: matrix(0.97, -0.16, 0.23, 0.99, 0, 0);
+}
+.overlap_1{
+    position: fixed;
+    width: 300px;
+    height: 100vh;
+    margin-left: -300px;
+    background: #121212;
+    
+}
+.overlap_2{
+    position: fixed;
+    width: 300px;
+    height: 100vh;
+    margin-left: 970px;
+    background: #121212;
+}
+
+/* Header end */
+
+/* Intro start */
+.into{
+    
+}
+.intro_title{
+    position: absolute;
+    top: 230px;
+    width: 553px;
+    height: 135px;
+    font-size: 50px;
+    line-height: 70px;
+    color: #000000;
+    margin-left: 62px;
+    font-weight: 500;
+}
+.intro__button__start{
+    position: absolute;
+    width: 245px;
+    height: 53px;
+    left: 62px;
+    top: 451px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    background: #04182F;
+    color: #FFFFFF;
+}
+/* Intro end */
+
+/* Start authorization */
+.wrapper__authorization{
+    width: 960px;
+    max-width: 960px;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+}
+.text_authorization{
+    position: absolute;
+    width: 580px;
+    height: 96px;
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-top: 121px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+.authorization__window{
+
+    position: absolute;
+    margin-top: 226px;
+    margin-left: 190px;
+    width: 580px;
+    height: 485px;
+    background: #060606;
+}
+.place__login{
+    position: absolute;
+    width: 580px;
+    height: 29px;
+    margin-top: 28px;
+
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+.authorization__input__login{
+    position: absolute;
+    margin-top: 68px;
+    margin-left: 40px;
+    font-size: 40px;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+
+}
+.text_password{
+    position: absolute;
+    width: 580px;
+    height: 29px;
+    margin-top: 158px;
+
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+.authorization__input__password {
+    position: absolute;
+    margin-top: 198px;
+    font-size: 40px;
+    margin-left: 40px;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+}
+.password_text_forget{
+    position: absolute;
+    width: 580px;
+    height: 24px;
+    margin-top: 280px;
+
+
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+.button__log__in {
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 338px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+
+    background: #04182F;
+    color: #FFFFFF;
+}
+.login__other__authorization{
+    position: absolute;
+    width: 180px;
+    height: 30px;
+    margin-top: 323px;
+    margin-left: 320px;
+
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+/* End authorization */
