@@ -305,6 +305,7 @@ body{
 }
 .no_account{
     margin-top: 22px;
+    margin-left: 20px;
     display: flex;
     justify-content: center;
 }
@@ -318,3 +319,180 @@ body{
     color: #FFFFFF;
 }
 /* End authorization */
+
+/* Start blank registration */
+.wrapper__registration{
+    width: 960px;
+    max-width: 960px;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+}
+.text_registration{
+    position: absolute;
+    width: 580px;
+    height: 96px;
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-top: 121px;
+
+    font-size: 64px;
+    line-height: 77px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+.registration__window{
+
+    position: absolute;
+    margin-top: 226px;
+    margin-left: 190px;
+    width: 580px;
+    height: 577px;
+    background: #060606;
+}
+.place__name{
+    position: absolute;
+    width: 580px;
+    height: 29px;
+    margin-top: 28px;
+
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+.registration__input__login{
+    position: absolute;
+    margin-top: 68px;
+    margin-left: 40px;
+    font-size: 40px;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+
+}
+.place__email{
+    position: absolute;
+    width: 580px;
+    height: 29px;
+    margin-top: 155px;
+
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+.registration__input__email{
+    position: absolute;
+    margin-top: 195px;
+    margin-left: 40px;
+    font-size: 40px;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+
+}
+.text_password_reg{
+    position: absolute;
+    width: 580px;
+    height: 29px;
+    margin-top: 285px;
+
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+.registration__input__password {
+    position: absolute;
+    margin-top: 325px;
+    font-size: 40px;
+    margin-left: 40px;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+}
+.password_text_forget{
+    position: absolute;
+    width: 580px;
+    height: 24px;
+
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+.button__create__in {
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 430px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+
+    background: #04182F;
+    color: #FFFFFF;
+}
+.reg__other__registration{
+    position: absolute;
+    width: 180px;
+    height: 30px;
+    margin-top: 415px;
+    margin-left: 320px;
+
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.ref_links_reg{
+    position: absolute;
+    width: 580px;
+    height: 577px;
+}
+.ref_list_reg{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 333px;;
+}
+
+.ref_item_reg{
+    margin-top: 459px;
+    margin-left: 5px;
+}
+.ref_item_reg_characteristic_reg{
+    width: 48px;
+    height: 48px;
+    margin-left: 5px;
+}
+.ref_item:last-child{
+    margin-block-end: 0;
+}
+.to_be_account{
+    padding-top: 523px;
+    margin-left: 220px;
+}
+.ref_to_be_account{
+    width: 140px;
+    height: 24px;
+
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+/* End blank registration */
