@@ -32,25 +32,26 @@
         box-sizing: inherit;
   }
 body{
-    background: #121212;
+    /* background: #121212; */
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
+    position: absolute;
 }
 /* Header start */
 .backGround{
-    max-width: 960px;
-    margin: 0 auto;
+    width: 100%;
     height: 100vh;
-    position: relative;
+    margin: 0 auto;
+    position: absolute;
 }
 /* Тут Zero line, Sing in, Sing Up */
 .header{
-    width: 960px;
+    width: 100%;
     position: absolute;
 }
 .style_ZL{
-    position: relative;
+    position: absolute;
     width: 147px;
     height: 44px;
     font-weight: 400;
@@ -77,6 +78,7 @@ body{
     background: #04182F;
     width: 110px;
     height: 48px; 
+    border-radius: 10px 10px / 20px;
     
 }
 .header_block{
@@ -98,10 +100,11 @@ body{
     justify-content: space-between;
 }
 .header_list{
+    margin-top: 30px;
+    right: 120%;
     position: relative;
     display: flex;
     flex-wrap: nowrap;
-    
 }
 
 .header_item{
@@ -114,13 +117,14 @@ body{
     position: absolute;
     width: 1300px;
     height: 600px;
-    margin-left: -200px;
+    margin-left: 15%;
     margin-top: 70px;
-    background: #D9D9D9;
+    background: #f7f4f460;
     /* transform: rotate(-17deg); */
-    transform: matrix(0.97, -0.16, 0.23, 0.99, 0, 0);
+    /* transform: matrix(0.97, -0.16, 0.23, 0.99, 0, 0); */
+    border-radius: 90% 10% / 250px  20px;
 }
-.overlap_1{
+/* .overlap_1{
     position: fixed;
     width: 300px;
     height: 100vh;
@@ -134,7 +138,7 @@ body{
     height: 100vh;
     margin-left: 970px;
     background: #121212;
-}
+} */
 
 /* Header end */
 
@@ -147,15 +151,16 @@ body{
     font-size: 50px;
     line-height: 70px;
     color: #000000;
-    margin-left: 62px;
+    margin-left: 20%;
     font-weight: 500;
 }
 .intro__button__start{
     position: absolute;
     width: 245px;
     height: 53px;
-    left: 62px;
+    left: 20%;
     top: 451px;
+    border-radius: 30% 10% / 50px;
     display: flex;
     justify-content: center;
     align-items: center;   
@@ -167,16 +172,16 @@ body{
 /* Start authorization */
 .wrapper__authorization{
     width: 960px;
-    max-width: 960px;
+    max-width: 100%;
     height: 100vh;
     margin: 0 auto;
-    position: relative;
+    position: absolute;
 }
 .text_authorization{
     position: absolute;
     width: 580px;
     height: 96px;
-    margin-left: 190px;
+    margin-left: 70%;
     margin-right: 190px;
     margin-top: 121px;
 
@@ -193,10 +198,10 @@ body{
 
     position: absolute;
     margin-top: 226px;
-    margin-left: 190px;
+    margin-left: 70%;
     width: 580px;
     height: 485px;
-    background: #060606;
+    /* background: #06060633; */
 }
 .place__login{
     position: absolute;
@@ -349,7 +354,7 @@ body{
     margin-left: 190px;
     width: 580px;
     height: 577px;
-    background: #060606;
+    background: #06060600;
 }
 .place__name{
     position: absolute;
