@@ -37,6 +37,11 @@ body{
     font-style: normal;
     font-weight: 400;
     position: absolute;
+    margin: 0 auto;
+}
+#wavesBackGround{
+    width: 100%;
+    height: 600px;
 }
 /* Header start */
 .backGround{
@@ -481,12 +486,17 @@ body{
 /* End blank registration */
 
 /*Start main block information */
+.main__block__information{
+    width: 100%;
+    height: 1200px;
+    margin-top: 650px;
+}
 .main__list__item__1{
     position: absolute;
     width: 100%;
-    height: 385px;
+    height: 400px;
     left: 0px;
-    margin-top: 650px;
+    /* margin-top: 650px; */
 }
 .list__item__topic__1{
     position: absolute;
@@ -532,14 +542,15 @@ body{
     width: 100%;
     height: 385px;
     left: 0px;
-    margin-top: 1035px;
+    margin-top: 420px;
+    background: #161614;
 }
 .list__item__topic__2{
     position: absolute;
     width: 212px;
     height: 30px;
     left: 55%;
-    top: 138px;
+    top: 100px;
 
     font-size: 25px;
     line-height: 30px;
@@ -563,14 +574,14 @@ body{
     width: 400px;
     height: 300px;
     left: 20%;
-    top: 96px;
+    top: 60px;
 
     background: #FFFFFF;
 }
 .list__item__img__2{
     position: absolute;
     left: 23.5%;
-    top:140px;
+    top:100px;
 }
 /* =======================================================================> */
 .main__list__item__3{
@@ -578,7 +589,7 @@ body{
     width: 100%;
     height: 385px;
     left: 0px;
-    margin-top: 1420px;
+    margin-top: 770px;
 }
 .list__item__topic__3{
     position: absolute;
@@ -589,8 +600,6 @@ body{
 
     font-size: 25px;
     line-height: 30px;
-    text-align: center;
-
     color: #FFFFFF;
 }
 .list__item__text__3{
@@ -660,4 +669,71 @@ body{
     top:1650px;
     left: 44.45%;
 }
+.our__advantages{
+    position: absolute;
+    width: 100%;
+    height: 461px;
+    left: 0px;
+    top: 1897px;
+
+    background: #161614;
+}
+.title_advantages{
+    position: absolute;
+    width: 378px;
+    height: 44px;
+    left: 35%;
+    top: 0px;
+
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #FFFFFF;
+}
+.advantages__list__img{
+    position: absolute;
+    width: 95%;
+    height: 200px;
+    top: 140px;
+
+
+    
+}
+
+
+.adv_img_1{
+    
+}
+
 /*End main block information */
+
+/* Start partners block information */
+.main__information__partners{
+    width: 100%;
+    height: 500px;
+    
+}
+.main__information__title{
+    position: absolute;
+    width: 364px;
+    height: 44px;
+    left: 35%;
+    top: 2400px;
+
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+.main__information__text{
+    position: absolute;
+    width: 836px;
+    height: 170px;
+    left: 20%;
+    top: 2450px;
+
+    font-size: 20px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+/* End partners block information */
