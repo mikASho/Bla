@@ -346,6 +346,44 @@ main{
 .information__partners{
     position: absolute;
     height: 440px;
+    width: 100%;
+    top: 1750px;
+}
+.partners__information__title{
+    position: relative;
+    top: 40px;
+    left: 298px;
+    width: 364px;
+    height: 44px;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+.partners__information__text{
+    position: relative;
+    width: 836px;
+    height: 170px;
+    left: 62px;
+    top: 76px;
+    font-size: 20px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.partners__img{
+    position: absolute;
+    top: 255px;
+    left: 735px;
+}
+.partners__ref{
+    position: absolute;
+    width: 273px;
+    height: 19px;
+    top: 350px;
+    left: 62px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+
 }
 /* Конец main ============================================================> */
 /* Start authorization */
