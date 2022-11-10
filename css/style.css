@@ -383,8 +383,83 @@ main{
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
-
 }
+/* КОНЕЦ НАШИ ПАРТНЁРЫ---------------------------------------------------- */
+
+/* НАЧАЛО main__other__questions */
+.main__other__questions{
+    position: absolute;
+    height: 405px;
+    width: 100%;
+    top: 2200px;
+    background: #161614;
+}
+.other__questions{
+    position: absolute;
+    width: 350px;
+    height: 44px;
+    left: 66px;
+    top: 98px;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+.other__text{
+    position: absolute;
+    width: 410px;
+    height: 48px;
+    left: 62px;
+    top: 188px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.other__email{
+    position: absolute;
+    width: 435px;
+    height: 61px;
+    left: 500px;
+    top: 98px;
+    background: #D9D9D9;  
+}
+.other__input__text{
+    position: absolute;
+    width: 435px;
+    height: 61px;
+    left: 500px;
+    top: 190px;
+    background: #D9D9D9;    
+}
+.agree__terms{
+    position: absolute;
+    width: 240px;
+    height: 45px;
+    left: 500px;
+    top: 267px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+.other__button{
+    position: absolute;
+    width: 176px;
+    height: 61px;
+    left: 759px;
+    top: 273px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #04182F; 
+}
+.style__text__button{
+    width: 106px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+/* КОНЕЦ main__other__questions */
+
 /* Конец main ============================================================> */
 /* Start authorization */
 .wrapper__authorization{
