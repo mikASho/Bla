@@ -32,29 +32,40 @@
         box-sizing: inherit;
   }
 body{
-    /* background: #121212; */
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    position: absolute;
     margin: 0 auto;
+    background-color: #060606;
+}
+.backGround{
+    width: 960px;
+    height: 100vh;
 }
 #wavesBackGround{
     width: 100%;
     height: 600px;
 }
-/* Header start */
-.backGround{
-    width: 100%;
-    min-height: 650px;
-    margin: 0 auto;
-    position: absolute;
-    background-color: #060606;
+/* Начало header первыx 600px  ===============================================================================>*/
+.container{
+    width: 960px;
+    height: 600px;
 }
-/* Тут Zero line, Sing in, Sing Up */
-.header{
-    width: 100%;
+.rectangle{
     position: absolute;
+    width: 100%;
+    height: 600px;
+    background: #f7f4f460;
+}
+header{
+    width: 100%;
+    height: 100px;
+}
+
+.zeroLine{
+    position: absolute;
+    top: 25px;
+    left: 50px;
 }
 .style_ZL{
     position: absolute;
@@ -64,6 +75,16 @@ body{
     font-size: 36px;
     line-height: 44px;
     color: #FFFFFF;
+}
+.header__up__list{
+    position: absolute;
+    width: 100%;
+    height: 48px;
+    top:26px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:flex-end;
+    
 }
 .style_SI{
     padding-top: 15px;
@@ -84,72 +105,29 @@ body{
     background: #04182F;
     width: 110px;
     height: 48px; 
+    margin-right: 62px;
     
 }
-.header_block{
-    width: 110px;
-    height: 48px;
-    color: #04182F;
-}
-
-.wrapper{
-    max-width:100%;
-    margin-left: 6.5%;
-    margin-right: 0;
-    margin-top: 36px;
-}
-
-.header_wrapper{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-}
-.header_list{
-    margin-top: 30px;
-    right: 120%;
-    position: relative;
-    display: flex;
-    flex-wrap: nowrap;
-}
-.header_nav{
-    width: 110px;
-    height: 48px;
-    margin-right: 7%;
-}
-
 .header_item{
     margin-left: 57px;
 }
-.header_item:last-child{
-    margin-block-end: 0;
-}
-.rectangle{
-    position: absolute;
-    width: 100%;
-    height: 650px;
-    background: #f7f4f460;
-}
 
-
-/* Header end */
-
-/* Intro start */
 .intro_title{
     position: absolute;
     top: 167px;
+    left: 62px;
     width: 553px;
     height: 135px;
     font-size: 50px;
     line-height: 70px;
     color: #000000;
-    margin-left: 7%;
     font-weight: 500;
 }
 .intro__button__start{
     position: absolute;
     width: 245px;
     height: 53px;
-    left: 7%;
+    left: 63px;
     top: 442px;
     display: flex;
     justify-content: center;
@@ -157,8 +135,219 @@ body{
     background: #04182F;
     color: #FFFFFF;
 }
-/* Intro end */
 
+/* Конец header   ===============================================================================>*/
+
+
+
+/* Начало main ============================================================> */
+main{
+    position: relative;
+    margin-top: 600px;
+    width: 960px;
+    height: 100vh;
+    margin: 0 auto;
+}
+.main__list{
+    height: 1248px;
+}
+/* ----------------------------------------------------------------------------- */
+.main__list__item__1{
+    height: 445px;
+    width: 100%;
+    position: inherit;
+
+}
+.list__item__topic__1{
+    position: absolute;
+    top: 138px;
+    left: 146px;
+    width: 212px;
+    height: 30px;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.list__item__text__1{
+    position: absolute;
+    width: 396px;
+    height: 108px;
+    top: 180px;
+    left: 52px;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.list__item__1__img{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 516px;
+    top: 96px;
+    background: #FFFFFF;
+}
+.list__item__img__1{
+    position: absolute;
+    left: 590px;
+    top:120px;
+}
+/* ----------------------------------------------------------------------------- */
+
+.main__list__item__2{
+    position: inherit;
+    height: 385px;
+    width: 100%;
+    background: #161614;
+}
+.list__item__topic__2{
+    position: relative;
+    width: 212px;
+    height: 30px;
+    left: 657px;
+    top: 46px;
+
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+.list__item__text__2{
+    position: relative;
+    width: 396px;
+    height: 108px;
+    left:516px;
+    top: 113px;
+
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+.list__item__2__img{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 43px;
+    top: 469px;
+
+    background: #FFFFFF;
+}
+.list__item__img__2{
+    position: absolute;
+    left: 100px;
+    top:492px;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+.main__list__item__3{
+    position: inherit;
+    height: 418px;
+    width: 100%;
+}
+.list__item__topic__3{
+    position: relative;
+    width: 328.98px;
+    height: 60px;
+    left: 75px;
+    top: 70px;
+
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.list__item__text__3{
+    position: absolute;
+    width: 396px;
+    height: 108px;
+    left: 34px;
+    top: 979px;
+
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+.list__item__3__img{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 516px;
+    top: 879px;
+
+    background: #FFFFFF;
+}
+.list__item__img__3{
+    position: absolute;
+    left: 588px;
+    top:900px;
+}
+/* НАШИ ПРЕИМУЩЕСТВА------------------------------------------------------------------- */
+.title_advantages{
+    position: relative;
+    width: 378px;
+    height: 44px;
+    left: 295px;
+    top: 53px;
+
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #FFFFFF;
+}
+.advantages__list__img{
+    height: 461px;
+    width: 960px;
+    background: #161614; 
+    display: flex;
+    flex-wrap: nowrap;
+}
+.adv__item{
+    position: relative;
+    top: 150px;
+
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    background-color:#FFFFFF;
+}
+.adv__form_1{
+    position: relative;
+    left: 18px;
+    top: 14px;
+}
+.adv__text{
+    position: absolute;
+    top: 233px;
+    left: 31px;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.adv__form_2{
+    position: relative;
+    left: 9px;
+    top: 11px;
+}
+
+.adv__form_3{
+    position: relative;
+    left: 15px;
+    top: 11px;
+}
+
+.adv__form_4{
+    position: relative;
+    left: 14px;
+    top: 11px;
+}
+
+/*НАШИ ПАРТНЁРЫ------------------------------------------------------------------- */
+.information__partners{
+    position: absolute;
+    height: 440px;
+}
+/* Конец main ============================================================> */
 /* Start authorization */
 .wrapper__authorization{
     width: 960px;
@@ -484,256 +673,3 @@ body{
     color: #FFFFFF;
 }
 /* End blank registration */
-
-/*Start main block information */
-.main__block__information{
-    width: 100%;
-    height: 1200px;
-    margin-top: 650px;
-}
-.main__list__item__1{
-    position: absolute;
-    width: 100%;
-    height: 400px;
-    left: 0px;
-    /* margin-top: 650px; */
-}
-.list__item__topic__1{
-    position: absolute;
-    width: 212px;
-    height: 30px;
-    left: 25%;
-    top: 138px;
-
-    font-size: 25px;
-    line-height: 30px;
-
-    color: #FFFFFF;
-}
-.list__item__text__1{
-    position: absolute;
-    width: 396px;
-    height: 108px;
-    left:20%;
-    top: 180px;
-
-    font-size: 20px;
-    line-height: 27px;
-
-    color: #FFFFFF;
-}
-.list__item__1__img{
-    position: absolute;
-    width: 400px;
-    height: 300px;
-    left: 50%;
-    top: 96px;
-
-    background: #FFFFFF;
-}
-.list__item__img__1{
-    position: absolute;
-    left: 53.5%;
-    top:140px;
-}
-/* ====================================================================> */
-.main__list__item__2{
-    position: absolute;
-    width: 100%;
-    height: 385px;
-    left: 0px;
-    margin-top: 420px;
-    background: #161614;
-}
-.list__item__topic__2{
-    position: absolute;
-    width: 212px;
-    height: 30px;
-    left: 55%;
-    top: 100px;
-
-    font-size: 25px;
-    line-height: 30px;
-
-    color: #FFFFFF;
-}
-.list__item__text__2{
-    position: absolute;
-    width: 396px;
-    height: 108px;
-    left:50%;
-    top: 180px;
-
-    font-size: 20px;
-    line-height: 27px;
-
-    color: #FFFFFF;
-}
-.list__item__2__img{
-    position: absolute;
-    width: 400px;
-    height: 300px;
-    left: 20%;
-    top: 60px;
-
-    background: #FFFFFF;
-}
-.list__item__img__2{
-    position: absolute;
-    left: 23.5%;
-    top:100px;
-}
-/* =======================================================================> */
-.main__list__item__3{
-    position: absolute;
-    width: 100%;
-    height: 385px;
-    left: 0px;
-    margin-top: 770px;
-}
-.list__item__topic__3{
-    position: absolute;
-    width: 328.98px;
-    height: 60px;
-    left: 22%;
-    top: 140px;
-
-    font-size: 25px;
-    line-height: 30px;
-    color: #FFFFFF;
-}
-.list__item__text__3{
-    position: absolute;
-    width: 396px;
-    height: 108px;
-    left:20%;
-    top: 210px;
-
-    font-size: 20px;
-    line-height: 27px;
-
-    color: #FFFFFF;
-}
-.list__item__3__img{
-    position: absolute;
-    width: 400px;
-    height: 300px;
-    left: 50%;
-    top: 96px;
-
-    background: #FFFFFF;
-}
-.list__item__img__3{
-    position: absolute;
-    left: 53.5%;
-    top:140px;
-}
-
-.pick{
-    position: absolute;
-    width: 1083px;
-    height: 0px;
-    left: 17%;
-    top: 1287px;
-
-    border: 1px solid #FFFFFF;
-    transform: rotate(90deg);
-}
-.circle{
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #FFFFFF;
-
-    top:850px;
-    left: 44.45%;
-}
-.circle__2{
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #FFFFFF;
-
-    top:1260px;
-    left: 44.45%;
-}
-.circle__3{
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #FFFFFF;
-
-    top:1650px;
-    left: 44.45%;
-}
-.our__advantages{
-    position: absolute;
-    width: 100%;
-    height: 461px;
-    left: 0px;
-    top: 1897px;
-
-    background: #161614;
-}
-.title_advantages{
-    position: absolute;
-    width: 378px;
-    height: 44px;
-    left: 35%;
-    top: 0px;
-
-    font-size: 36px;
-    line-height: 44px;
-
-    color: #FFFFFF;
-}
-.advantages__list__img{
-    position: absolute;
-    width: 95%;
-    height: 200px;
-    top: 140px;
-
-
-    
-}
-
-
-.adv_img_1{
-    
-}
-
-/*End main block information */
-
-/* Start partners block information */
-.main__information__partners{
-    width: 100%;
-    height: 500px;
-    
-}
-.main__information__title{
-    position: absolute;
-    width: 364px;
-    height: 44px;
-    left: 35%;
-    top: 2400px;
-
-    font-size: 36px;
-    line-height: 44px;
-    color: #FFFFFF;
-}
-.main__information__text{
-    position: absolute;
-    width: 836px;
-    height: 170px;
-    left: 20%;
-    top: 2450px;
-
-    font-size: 20px;
-    line-height: 36px;
-    color: #FFFFFF;
-}
-
-/* End partners block information */

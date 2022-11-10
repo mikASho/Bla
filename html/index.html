@@ -1,114 +1,112 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main page</title>
-    <style>
-        a {
-         text-decoration: none;
-        }
-       </style>
-    <link rel="stylesheet" href="/Bla/css/reset.css">
-    <link rel="stylesheet" href="/Bla/css/style.css">
-</head>
-    <body class="backGround" id="wavesBackGround">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ссылки</title>
+        <style>
+            a {
+             text-decoration: none;
+            }
+           </style>
+        <link rel="stylesheet" href="/Bla/css/reset.css">
+        <link rel="stylesheet" href="/Bla/css/style.css">
+    </head>
+    <body>      
+        <div class="container" id="wavesBackGround">
 
-        <script src="/Bla/scripts/three.min.js"></script>
-        <script src="/Bla/scripts/vanta.waves.min.js"></script>
-        <script src="/Bla/scripts/app.js"></script>
+            <script src="/Bla/scripts/three.min.js"></script>
+            <script src="/Bla/scripts/vanta.waves.min.js"></script>
+            <script src="/Bla/scripts/app.js"></script>
+
             <div class="rectangle"></div>
-                    <header class="header">
-                        <div class="wrapper">           
-                            <div class="header_wrapper">
-                                <div class="header__Zero_line">
-                                    <a href="./index.html">
-                                        <p class="style_ZL">Zero line</p>
-                                    </a>
-                                </div>
-                                <nav class="header_nav">
-                                    <ul class="header_list">
-                                        <li class="header_item">
-                                            <a href="./authorization.html" class="header_link"><p class="style_SI">Войти</p></a>
-                                        </li>
-                                        <li class="header_item">
-                                            <a href="./reg.html" class="header_link"><p class="style_SU">Создать</p></a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </div>  
-                        </div>
-                                
-                    </header> 
-                        
-                    <main class="main">
-                        <section class="intro">                           
-                            <div>
-                                <h1 class="intro_title">
-                                    Ещё один день, чтобы стать лучше
-                                </h1>
-                            </div>
 
-                            <div class="intro__button">
-                                <a href="#!" ><p class="intro__button__start">Начнём</p></a>
-                            </div>
-                        </section>
+            <header>
+                <div class="header__up">
+                    <div class="zeroLine">
+                            <a href="./index.html">
+                                <p class="style_ZL">Zero line</p>
+                            </a>
+                    </div>
 
-                        <section class="main__block__information">
-                            <ul class="main__list">
-                                <li class="main__list__item__1">
-                                    <p class="list__item__topic__1">Начни учиться</p>
-                                    <p class="list__item__text__1">Мы предлагаем вам опробовать свои силы в решении типовых задач. Если у тебя есть базовый уровень, то можешь пропустить этот пункт.</p>
-                                    <div class="list__item__1__img"></div> 
-                                    <img src="/Bla/img/laptop.png" alt="laptop" class="list__item__img__1">
-                                </li>
+                    <nav class="header__up__nav">  
+                        <ul class="header__up__list">
+                            <li class="header_item">
+                                <a href="./authorization.html" class="header_link"><p class="style_SI">Войти</p></a>
+                            </li>
+                            <li class="header_item">
+                                <a href="./reg.html" class="header_link"><p class="style_SU">Создать</p></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                         
+                    <div>
+                        <h1 class="intro_title">
+                            Ещё один день, чтобы стать лучше
+                        </h1>
+                    </div>
 
-                                <li class="main__list__item__2">
-                                    <p class="list__item__topic__2">Тренируйся</p>
-                                    <p class="list__item__text__2">Если типовые задачи не вызывают у тебя сложностей, то можешь смело переходить на новый уровень. Здесь доступны задачи для практики. На ваши ошибки укажет наставник. Вы сможете улучшить свои навыки и сделать первый шаг к своей будущей работе.</p>
-                                    <div class="list__item__2__img"></div> 
-                                    <img src="/Bla/img/brain.png" alt="brain" class="list__item__img__2">
-                                </li>
+                    <div class="intro__button">
+                        <a href="#!" ><p class="intro__button__start">Начнём</p></a>
+                    </div>
 
-                                <li class="main__list__item__3">
-                                    <p class="list__item__topic__3">Получи доступ к блоку с задачами компаний</p>
-                                    <p class="list__item__text__3">Ты нарешал нужное количество задач. Теперь ты очень близок к своей первой работе. Тебе открыт блок с проблемами it-компаний. У тебя будет прямой фидбек от представителя компании.</p>
-                                    <div class="list__item__3__img"></div> 
-                                    <img src="/Bla/img/case.png" alt="case" class="list__item__img__3">
-                                </li>
-                            </ul>
-                                <div class="fogure">
-                                <div class="pick"></div>
-                                <div class="circle"></div>
-                                <div class="circle__2"></div>
-                                <div class="circle__3"></div>
-                            </div>
-                            
-                            <div class="our__advantages">
-                                <p class="title_advantages">Наши преимущества</p>
-                                <ul class="advantages__list__img">
-                                    <li class="adv__item">
-                                        <img class="adv_img_1" src="/Bla/img/OA_1_tablet.png" alt="tablet">
-                                    </li>
-                                    <li class="adv__item">
-                                        <img class="adv_img_2" src="/Bla/img/OA_2_operator.png" alt="operator">
-                                    </li>
-                                    <li class="adv__item">
-                                        <img class="adv_img_3" src="/Bla/img/OA_3_folder.png" alt=""folder>
-                                    </li>
-                                    <li class="adv__item">
-                                        <img class="adv_img_4" src="/Bla/img/OA_4_message.png" alt="message">
-                                    </li>
-                                </ul>
-                            </div>
+            </header>
 
-                        </section>
-                        
-                        <section class="main__information__partners">
-                            <p class="main__information__title">Компании-партнеры</p>
-                            <p class="main__information__text">Мы помогаем компаниям найти лучших кандидатов на рынке. Задания с тест-кейсами можно публиковать в отдельном блоке. Вы сможете выбрать среди кандидатов лучшего представителя и найти себе хорошую шестеренку в механизм компании. От вас лишь требуется желание сотрудничать и несколько минут свободного времени.</p>
-                        </section>
-                    </main>     
+        </div>
+        <main>
+            <ul class="main__list">
+                <li class="main__list__item__1">
+                    <p class="list__item__topic__1">Начни учиться</p>
+                    <p class="list__item__text__1">Мы предлагаем вам опробовать свои силы в решении типовых задач. Если у тебя есть базовый уровень, то можешь пропустить этот пункт.</p>
+                    <div class="list__item__1__img"></div> 
+                    <img src="/Bla/img/laptop.png" alt="laptop" class="list__item__img__1">
+                </li>
+
+                <li class="main__list__item__2">
+                    <p class="list__item__topic__2">Тренируйся</p>
+                    <p class="list__item__text__2">Если типовые задачи не вызывают у тебя сложностей, то можешь смело переходить на новый уровень. Здесь доступны задачи для практики. На ваши ошибки укажет наставник. Вы сможете улучшить свои навыки и сделать первый шаг к своей будущей работе.</p>
+                    <div class="list__item__2__img"></div> 
+                    <img src="/Bla/img/brain.png" alt="brain" class="list__item__img__2">
+                </li>
+
+                <li class="main__list__item__3">
+                    <p class="list__item__topic__3">Получи доступ к блоку с задачами компаний</p>
+                    <p class="list__item__text__3">Ты нарешал нужное количество задач. Теперь ты очень близок к своей первой работе. Тебе открыт блок с проблемами it-компаний. У тебя будет прямой фидбек от представителя компании.</p>
+                    <div class="list__item__3__img"></div> 
+                    <img src="/Bla/img/case.png" alt="case" class="list__item__img__3">
+                </li>
+            </ul>
+
+            <div class="our__advantages">
+                <p class="title_advantages">Наши преимущества</p>
+                <ul class="advantages__list__img">
+                    <li class="adv__item">
+                        <p class="adv__text">Реальные задачи it-компаний России</p>
+                        <img class="adv__form_1" src="/Bla/img/OA_1_tablet.png" alt="tablet"> 
+                    </li>
+                    <li class="adv__item">
+                        <img class="adv__form_2" src="/Bla/img/OA_2_operator.png" alt="operator">
+                        <p class="adv__text">Активная помощь в освоении технологий</p>
+                    </li>
+                    <li class="adv__item">
+                        <img class="adv__form_3" src="/Bla/img/OA_3_folder.png" alt="folder">
+                        <p class="adv__text">Составление виртуального портфолио</p>
+                    </li>
+                    <li class="adv__item">
+                        <img class="adv__form_4" src="/Bla/img/OA_4_message.png" alt="message">
+                        <p class="adv__text">Прямой фидбек от представителей it-компаний</p>
+                    </li>
+                </ul>
+            </div>
+        </main>
+        <!-- <section class="information__partners">
+            <p class="main__information__title">Компании-партнеры</p>
+            <p class="main__information__text">Мы помогаем компаниям найти лучших кандидатов на рынке. Задания с тест-кейсами можно публиковать в отдельном блоке. Вы сможете выбрать среди кандидатов лучшего представителя и найти себе хорошую шестеренку в механизм компании. От вас лишь требуется желание сотрудничать и несколько минут свободного времени.</p>
+        </section> -->
+        <footer>
+
+        </footer>
     </body>
 </html>
