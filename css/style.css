@@ -145,7 +145,7 @@ main{
     position: relative;
     margin-top: 600px;
     width: 960px;
-    height: 100vh;
+    height: 2600px;
     margin: 0 auto;
 }
 .main__list{
@@ -459,8 +459,18 @@ main{
     color: #FFFFFF;
 }
 /* КОНЕЦ main__other__questions */
-
 /* Конец main ============================================================> */
+
+/* ПРИВЕТ ФУТЕР=============================================== */
+
+footer{
+    width: 960px;
+    height: 275px;
+    margin: 0 auto;
+    background: #121212;
+}   
+
+/* ПОКА ФУТЕР=============================================== */
 /* Start authorization */
 .wrapper__authorization{
     width: 960px;
